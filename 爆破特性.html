@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>W1 本周三线攻坚 | 极限推理·进化计划</title>
+    <title>W1 三点开花 | 极限推理·进化计划</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
     <style>
@@ -56,7 +56,7 @@
                 <div>
                     <div class="flex items-center gap-3 mb-2">
                         <span class="text-3xl font-black">W1</span>
-                        <span class="px-3 py-1 bg-slate-700 rounded text-sm">本周三线攻坚</span>
+                        <span class="px-3 py-1 bg-slate-700 rounded text-sm">三大优化点</span>
                     </div>
                     <h1 class="text-xl font-bold">Agent推理体验全栈优化 · 友好集群试点启动</h1>
                 </div>
@@ -91,15 +91,15 @@
                         <ul class="space-y-3 text-sm text-slate-700">
                             <li class="flex items-start gap-2">
                                 <span class="text-red-500 mt-0.5">▸</span>
-                                <span><strong>串行等待：</strong>思考→调用→等待→继续，GPU空转利用率<40%</span>
+                                <span><strong>思考丢失：</strong>不支持交错思考，仅在第一轮交互的时候思考，执行的过程中没有思考</span>
                             </li>
                             <li class="flex items-start gap-2">
                                 <span class="text-red-500 mt-0.5">▸</span>
-                                <span><strong>双栈割裂：</strong>SGLang与vLLM分别适配，工作量翻倍</span>
+                                <span><strong>报错频发：</strong>Anthropic协议和OpenAI协议的请求格式差别巨大</span>
                             </li>
                             <li class="flex items-start gap-2">
                                 <span class="text-red-500 mt-0.5">▸</span>
-                                <span><strong>体验卡顿：</strong>Agent长会话明显卡顿，交互不流畅</span>
+                                <span><strong>戛然而止：</strong>Agent复杂任务经常出现超时和提前停止</span>
                             </li>
                         </ul>
                     </div>
@@ -122,15 +122,15 @@
                         <ul class="space-y-3 text-sm text-slate-700">
                             <li class="flex items-start gap-2">
                                 <span class="text-emerald-500 mt-0.5">▸</span>
-                                <span><strong>交错执行：</strong>思考与工具调用并行，GPU利用率提升2.5倍</span>
+                                <span><strong>交错思考：</strong>让AI"像人一样做事"，完美复刻anthropic的核心思维链</span>
                             </li>
                             <li class="flex items-start gap-2">
                                 <span class="text-emerald-500 mt-0.5">▸</span>
-                                <span><strong>双栈统一：</strong>重构Scheduler状态机，一套逻辑适配双框架</span>
+                                <span><strong>双栈统一：</strong>Anthropic协议和OpenAI协议自有转换，一套系统支持多个场景</span>
                             </li>
                             <li class="flex items-start gap-2">
                                 <span class="text-emerald-500 mt-0.5">▸</span>
-                                <span><strong>流式顺滑：</strong>延迟降低35-50%，体验质变</span>
+                                <span><strong>超时心跳：</strong>大文件输出场景不再失败，复杂任务不再提前退出</span>
                             </li>
                         </ul>
                     </div>
@@ -138,27 +138,23 @@
 
                 <!-- 图片占位区 -->
                 <div class="grid grid-cols-2 gap-4 mb-4">
-                    <div class="image-placeholder rounded-lg h-40">
-                        <svg class="w-10 h-10 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-                        <span class="text-sm font-medium">【优化前架构图/流程图】</span>
-                        <span class="text-xs mt-1">请插入对比图</span>
+                    <div class="image-placeholder rounded-lg">
+                        <img src="./img/用户的噩梦.png" alt="优化前架构图" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
                     </div>
-                    <div class="image-placeholder rounded-lg h-40">
-                        <svg class="w-10 h-10 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-                        <span class="text-sm font-medium">【优化后架构图/效果图】</span>
-                        <span class="text-xs mt-1">请插入对比图</span>
+                    <div class="image-placeholder rounded-lg">
+                        <img src="./img/交错思考.png" alt="优化前架构图" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
                     </div>
                 </div>
 
                 <!-- 效果指标 -->
                 <div class="flex items-center gap-6 bg-slate-100 rounded-lg p-4">
                     <div class="text-center px-4 border-r border-slate-300">
-                        <div class="text-2xl font-black text-slate-900">35-50%</div>
-                        <div class="text-xs text-slate-600 mt-1">延迟降低</div>
+                        <div class="text-2xl font-black text-slate-900">99%+</div>
+                        <div class="text-xs text-slate-600 mt-1">复杂任务成功率</div>
                     </div>
                     <div class="text-center px-4 border-r border-slate-300">
-                        <div class="text-2xl font-black text-slate-900">2.5x</div>
-                        <div class="text-xs text-slate-600 mt-1">GPU利用率提升</div>
+                        <div class="text-2xl font-black text-slate-900">完整渲染</div>
+                        <div class="text-xs text-slate-600 mt-1">模型思考过程</div>
                     </div>
                     <div class="flex-1 text-sm text-slate-600">
                         开发者体验质变：从"卡顿等待"变为"流式顺滑"
@@ -168,11 +164,12 @@
 
             <!-- 特性2：调度引擎 -->
             <div class="border-b border-slate-200 pb-8">
+                <!-- 标题 -->
                 <div class="flex items-center gap-4 mb-6">
-                    <div class="w-14 h-14 bg-slate-800 text-white flex items-center justify-center font-black text-xl">02</div>
+                    <div class="w-14 h-14 bg-slate-900 text-white flex items-center justify-center font-black text-xl">02</div>
                     <div>
                         <div class="text-xs text-slate-500 font-medium mb-1">调度层优化</div>
-                        <h2 class="text-2xl font-black text-slate-900">Agent极致调度引擎 · 状态机重构</h2>
+                        <h2 class="text-2xl font-black text-slate-900">Agentic场景亲和的调度引擎</h2>
                     </div>
                 </div>
 
@@ -186,15 +183,11 @@
                         <ul class="space-y-3 text-sm text-slate-700">
                             <li class="flex items-start gap-2">
                                 <span class="text-red-500 mt-0.5">▸</span>
-                                <span><strong>长会话垄断：</strong>10+轮次会话占用大量KV Cache，短请求饿死</span>
+                                <span><strong>首token超长耗时请求多：</strong>大部分输入在60~100K，完全计算开销较大</span>
                             </li>
                             <li class="flex items-start gap-2">
                                 <span class="text-red-500 mt-0.5">▸</span>
-                                <span><strong>资源失衡：</strong>平均利用率仅62%，GPU空转严重</span>
-                            </li>
-                            <li class="flex items-start gap-2">
-                                <span class="text-red-500 mt-0.5">▸</span>
-                                <span><strong>调度不公平：</strong>单一Agent会话垄断算力，其他请求排队</span>
+                                <span><strong>cache命中率低：</strong>平均prefix cache命中率仅40%</span>
                             </li>
                         </ul>
                     </div>
@@ -202,7 +195,7 @@
                     <!-- 中间箭头 -->
                     <div class="vs-divider flex flex-col items-center justify-center">
                         <div class="vs-badge">
-                            <div class="w-12 h-12 bg-slate-700 text-white rounded-full flex items-center justify-center">
+                            <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center">
                                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                             </div>
                         </div>
@@ -217,15 +210,11 @@
                         <ul class="space-y-3 text-sm text-slate-700">
                             <li class="flex items-start gap-2">
                                 <span class="text-emerald-500 mt-0.5">▸</span>
-                                <span><strong>抢占释放：</strong>长会话渐进式释放资源，短查询不再饿死</span>
+                                <span><strong>会话亲和：</strong>系统能够"记住"上下文，将同一 Session 的后续请求路由到持有缓存的节点</span>
                             </li>
                             <li class="flex items-start gap-2">
                                 <span class="text-emerald-500 mt-0.5">▸</span>
-                                <span><strong>利用率提升：</strong>集群利用率从62%提升至89%</span>
-                            </li>
-                            <li class="flex items-start gap-2">
-                                <span class="text-emerald-500 mt-0.5">▸</span>
-                                <span><strong>公平调度：</strong>Credit-Based配额系统，资源分配公平</span>
+                                <span><strong>长短序列负载亲和：</strong>根据资源负载调整调度策略，提升整体系统性能和用户体验</span>
                             </li>
                         </ul>
                     </div>
@@ -233,40 +222,36 @@
 
                 <!-- 图片占位 -->
                 <div class="grid grid-cols-2 gap-4 mb-4">
-                    <div class="image-placeholder rounded-lg h-40">
-                        <svg class="w-10 h-10 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-                        <span class="text-sm font-medium">【调度策略对比图/负载曲线】</span>
-                        <span class="text-xs mt-1">请插入对比图</span>
+                    <div class="image-placeholder rounded-lg">
+                        <img src="./img/TTFT过长.png" alt="优化前架构图" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
                     </div>
-                    <div class="image-placeholder rounded-lg h-40">
-                        <svg class="w-10 h-10 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-                        <span class="text-sm font-medium">【优化后调度效果/资源分配图】</span>
-                        <span class="text-xs mt-1">请插入对比图</span>
+                    <div class="image-placeholder rounded-lg">
+                        <img src="./img/会话亲和与负载感知.png" alt="优化后架构图" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
                     </div>
                 </div>
 
                 <div class="flex items-center gap-6 bg-slate-100 rounded-lg p-4">
                     <div class="text-center px-4 border-r border-slate-300">
-                        <div class="text-2xl font-black text-slate-900">40%+</div>
+                        <div class="text-2xl font-black text-slate-900">10%+</div>
                         <div class="text-xs text-slate-600 mt-1">吞吐量提升</div>
                     </div>
                     <div class="text-center px-4 border-r border-slate-300">
-                        <div class="text-2xl font-black text-slate-900">89%</div>
-                        <div class="text-xs text-slate-600 mt-1">资源利用率</div>
+                        <div class="text-2xl font-black text-slate-900">78%+</div>
+                        <div class="text-xs text-slate-600 mt-1">prefix cache命中率</div>
                     </div>
                     <div class="flex-1 text-sm text-slate-600">
-                        长会话与短查询和谐共存，资源分配公平性显著改善
+                        大幅提升cache命中率极大地降低了长对话场景下的首字延迟
                     </div>
                 </div>
             </div>
 
             <!-- 特性3：算子优化 -->
-            <div>
+            <div class="border-b border-slate-200 pb-8">
                 <div class="flex items-center gap-4 mb-6">
-                    <div class="w-14 h-14 bg-slate-700 text-white flex items-center justify-center font-black text-xl">03</div>
+                    <div class="w-14 h-14 bg-slate-900 text-white flex items-center justify-center font-black text-xl">03</div>
                     <div>
                         <div class="text-xs text-slate-500 font-medium mb-1">算子层优化</div>
-                        <h2 class="text-2xl font-black text-slate-900">长序列算子深度优化 · 通信复杂度突破</h2>
+                        <h2 class="text-2xl font-black text-slate-900">长序列算子深度优化</h2>
                     </div>
                 </div>
 
@@ -280,15 +265,15 @@
                         <ul class="space-y-3 text-sm text-slate-700">
                             <li class="flex items-start gap-2">
                                 <span class="text-red-500 mt-0.5">▸</span>
-                                <span><strong>复杂度爆炸：</strong>Attention通信量O(N²)，256K上下文带宽瓶颈</span>
+                                <span><strong>长序列显存吃紧：</strong>attention mask的大小是seq_len的平方</span>
                             </li>
                             <li class="flex items-start gap-2">
                                 <span class="text-red-500 mt-0.5">▸</span>
-                                <span><strong>负载倾斜：</strong>KV Cache分布不均，部分GPU过载</span>
+                                <span><strong>attention负载不均：</strong>Decode阶段 Query 序列较短，而 KV Cache 的序列非常长</span>
                             </li>
                             <li class="flex items-start gap-2">
                                 <span class="text-red-500 mt-0.5">▸</span>
-                                <span><strong>延迟高企：</strong>Prefill阶段延迟秒级，体验差</span>
+                                <span><strong>A2硬件kvcache传输较慢：</strong>现有的Host CPU控制下发的方式存在“等待较多、通信路线较长”的缺点</span>
                             </li>
                         </ul>
                     </div>
@@ -296,7 +281,7 @@
                     <!-- 中间箭头 -->
                     <div class="vs-divider flex flex-col items-center justify-center">
                         <div class="vs-badge">
-                            <div class="w-12 h-12 bg-slate-600 text-white rounded-full flex items-center justify-center">
+                            <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center">
                                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                             </div>
                         </div>
@@ -311,15 +296,15 @@
                         <ul class="space-y-3 text-sm text-slate-700">
                             <li class="flex items-start gap-2">
                                 <span class="text-emerald-500 mt-0.5">▸</span>
-                                <span><strong>线性复杂度：</strong>Ring-Attention将通信降至O(N)，百万级上下文支持</span>
+                                <span><strong>MaskFree：</strong>实现计算和内存的双正向优化</span>
                             </li>
                             <li class="flex items-start gap-2">
                                 <span class="text-emerald-500 mt-0.5">▸</span>
-                                <span><strong>负载均衡：</strong>动态序列并行，KV Cache均匀分布</span>
+                                <span><strong>FlashDecoding：</strong>重新设计分核策略。计算任务不再仅沿传统维度划分，而是综合 Batch、NumHeads以及 KV 序列维度对任务进行统一调度</span>
                             </li>
                             <li class="flex items-start gap-2">
                                 <span class="text-emerald-500 mt-0.5">▸</span>
-                                <span><strong>延迟骤降：</strong>Prefill延迟降低60%+，毫秒级响应</span>
+                                <span><strong>KVCache传输通信优化：</strong>使用AICPU下发通信任务替代原Host CPU下发方式，降低Host与Device侧的交互 </span>
                             </li>
                         </ul>
                     </div>
@@ -327,52 +312,52 @@
 
                 <!-- 图片占位 -->
                 <div class="grid grid-cols-2 gap-4 mb-4">
-                    <div class="image-placeholder rounded-lg h-40">
-                        <svg class="w-10 h-10 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-                        <span class="text-sm font-medium">【通信复杂度对比/序列并行示意图】</span>
-                        <span class="text-xs mt-1">请插入对比图</span>
+                    <div class="image-placeholder rounded-lg">
+                        <img src="./img/算子old.png" alt="优化前架构图" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
                     </div>
-                    <div class="image-placeholder rounded-lg h-40">
-                        <svg class="w-10 h-10 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-                        <span class="text-sm font-medium">【优化后性能曲线/延迟对比图】</span>
-                        <span class="text-xs mt-1">请插入对比图</span>
+                    <div class="image-placeholder rounded-lg">
+                        <img src="./img/算子now.png" alt="优化后架构图" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
                     </div>
                 </div>
 
                 <div class="flex items-center gap-6 bg-slate-100 rounded-lg p-4">
                     <div class="text-center px-4 border-r border-slate-300">
-                        <div class="text-2xl font-black text-slate-900">O(N)</div>
-                        <div class="text-xs text-slate-600 mt-1">通信复杂度</div>
+                        <div class="text-2xl font-black text-slate-900">O(N)->O(1)</div>
+                        <div class="text-xs text-slate-600 mt-1">AttentionMask显存占用</div>
                     </div>
                     <div class="text-center px-4 border-r border-slate-300">
-                        <div class="text-2xl font-black text-slate-900">60%+</div>
-                        <div class="text-xs text-slate-600 mt-1">Prefill延迟降低</div>
+                        <div class="text-2xl font-black text-slate-900">30%+</div>
+                        <div class="text-xs text-slate-600 mt-1">Attention单算子性能提升</div>
+                    </div>
+                    <div class="text-center px-4 border-r border-slate-300">
+                        <div class="text-2xl font-black text-slate-900">40%+</div>
+                        <div class="text-xs text-slate-600 mt-1">单边通信算子性能提升</div>
                     </div>
                     <div class="flex-1 text-sm text-slate-600">
-                        支持256K+长上下文，从秒级延迟降至毫秒级响应
+                        A2集群支持256K+长上下文，长序列关键算子性能大幅提升
                     </div>
                 </div>
             </div>
 
         </div>
 
-        <!-- 底部CTA -->
-        <div class="bg-slate-900 px-10 py-5 text-white">
-            <div class="flex items-center justify-between">
-                <div class="flex items-center gap-4">
-                    <div class="w-10 h-10 bg-slate-700 flex items-center justify-center">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
-                    </div>
-                    <div>
-                        <div class="font-bold">本周三线并行试点启动</div>
-                        <div class="text-sm text-slate-400">友好集群试点验证中 · 渐进式部署确保风险可控</div>
-                    </div>
-                </div>
-                <div class="text-right text-sm text-slate-400">
-                    <div>联系：AI工程部 · 推理优化组</div>
-                </div>
-            </div>
-        </div>
+<!--        &lt;!&ndash; 底部CTA &ndash;&gt;-->
+<!--        <div class="bg-slate-900 px-10 py-5 text-white">-->
+<!--            <div class="flex items-center justify-between">-->
+<!--                <div class="flex items-center gap-4">-->
+<!--                    <div class="w-10 h-10 bg-slate-700 flex items-center justify-center">-->
+<!--                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>-->
+<!--                    </div>-->
+<!--                    <div>-->
+<!--                        <div class="font-bold">本周三线并行试点启动</div>-->
+<!--                        <div class="text-sm text-slate-400">友好集群试点验证中 · 渐进式部署确保风险可控</div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="text-right text-sm text-slate-400">-->
+<!--                    <div>联系：AI工程部 · 推理优化组</div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
 
     </div>
 
